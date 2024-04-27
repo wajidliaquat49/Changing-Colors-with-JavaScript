@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#maindiv {
+
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+    margin: 50px auto 50px auto;
+    border-radius: 400px;
+    
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.same {
+    width: 100px;
+    height: 60px;
+}
+
+#changered {
+    background-color: red;
+    border-radius: 50px;
+}
+
+#changeyellow {
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+#changegreen {
+    background-color: green;
+    border-radius: 50px;
+}
+
+#changepurple {
+    background-color: purple;
+    border-radius: 50px;
+}
+
+#changeaqua {
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+#changeorange {
+    background-color: orange;
+    border-radius: 50px;
+}
